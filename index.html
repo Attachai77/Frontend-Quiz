@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Verdana">
+
+    <!-- CSS CUSTOM -->
+    <style>
+    html, body {
+        font-family: Verdana,sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+    .navbar {
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+        padding: 8px 16px!important;
+    }
+    .header-image { max-width: 100%; height: auto; }
+    @media only screen and (max-width: 600px) {
+        #top-right-menu { display: none; }
+    }
+    .title-top-left {
+        position: absolute;
+        top: 0px;
+        left: 8px;
+        color: white;
+        background-color: #000;
+        padding: 8px 16px;
+    }
+    .custom-btn{
+        background-color: #fff;
+        color: #000!important;
+        border-radius: 0 !important;
+        letter-spacing: 4px;
+        padding: 8px 16px;
+    }
+    .custom-btn:hover{
+        background-color: #fff;
+        color: #000!important;
+        background-color: #ccc!important;
+    }
+    .contact-btn{ border-radius: 0 !important; }
+    .contact-btn:hover{ background-color: #ccc!important; }
+    .btn-black{
+        border-radius: 0 !important;
+        background-color: #000;
+        color: #fff;
+    }
+    .btn-black:hover{ background-color: #ccc; color: #000; }
+    .pl-pr-8{
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+    .input-custom { padding: 8px; border-radius: 0; }
+    footer{
+        color: #fff;
+        background-color: black;
+        padding: 16px 0;
+        text-align: center;
+    }
+    .ref-link > a{ color:white; text-decoration: underline; }
+    .ref-link > a:hover{ color: #4CAF50; }
+    </style>
+    
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top"  style="background-color: #fff;">
+        <a class="btn custom-btn"><b style="font-weight:900;">BR</b> Architects</a>
+        <div class="ml-auto" id="top-right-menu">
+            <a href="#project" class="btn custom-btn">Projects</a>
+            <a href="#about" class="btn custom-btn">About</a>
+            <a href="#contact" class="btn custom-btn">Contact</a>
+        </div>
+    </nav>
+    <!-- #END NAVBAR -->
+
+    <!-- HEADER -->
+    <header style="max-width:1500px; ">
+        <img class="header-image" src="https://www.w3schools.com/w3images/architect.jpg" width="1500" height="800">
+        <div class="text-center" style="position: absolute; top: 58%; left: 50%; transform: translate(-50%,-50%); ">
+            <h1 style="color: #fff; font-size: 36px!important; letter-spacing: 4px;">
+                <span style="background-color: #000; padding: 8px 16px; opacity: 0.75;"><b>BR</b></span>
+                <span>Architects</span>
+            </h1>
+        </div>
+    </header>
+    <!-- #END HEADER -->
+
+    <!-- CONTENT -->
+    <div class="container-fluid">
+
+        <div class="" id="project" style="padding-top:56px; padding-bottom: 0px;">
+            <div class="p-3">
+                <h4 class="pb-3" style="border-bottom: 1px solid #ccc;">Projects</h4>
+            </div>
+
+            <div class="row pt-3 pb-0 pl-4 pr-4">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 pl-pr-8">
+                    <div class="mb-4">
+                        <img class="img-fluid" src="https://www.w3schools.com/w3images/house5.jpg" alt="">
+                        <div class="title-top-left">Summer House</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 pl-pr-8">
+                    <div class="mb-4">
+                        <img class="img-fluid" src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+                        <div class="title-top-left">Brick House</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 pl-pr-8">
+                    <div class="mb-4">
+                        <img class="img-fluid" src="https://www.w3schools.com/w3images/house3.jpg" alt="">
+                        <div class="title-top-left">Renovated</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 pl-pr-8">
+                    <div class="mb-4">
+                        <img class="img-fluid" src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+                        <div class="title-top-left">Barn House</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 pl-pr-8">
+                    <div class="mb-4">
+                        <img class="img-fluid" src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+                        <div class="title-top-left">Summer House</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 pl-pr-8">
+                    <div class="mb-4">
+                        <img class="img-fluid" src="https://www.w3schools.com/w3images/house5.jpg" alt="">
+                        <div class="title-top-left">Brick House</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 pl-pr-8">
+                    <div class="mb-4">
+                        <img class="img-fluid" src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+                        <div class="title-top-left">Renovated</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 pl-pr-8">
+                    <div class="mb-4">
+                        <img class="img-fluid" src="https://www.w3schools.com/w3images/house3.jpg" alt="">
+                        <div class="title-top-left">Barn House</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pt-4" id="about">
+            <div class="p-3 mt-4">
+                <h4 class="pb-3" style="border-bottom: 1px solid #ccc;">About</h4>
+            </div>
+            <p class="pl-3 pr-3 pb-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="row pt-3 pr-3 pl-3 pb-0">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 pl-pr-8">
+                    <div class="mb-4">
+                        <img class="img-fluid" src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+                        <h3 class="mt-3 mb-3">John Doe</h3>
+                        <p style="opacity: 0.60;">CEO & Founder</p>
+                        <p>
+                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                        </p>
+                        <button class="btn btn-defualt btn-block contact-btn">Contact</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 pl-pr-8">
+                    <div class="mb-4">
+                        <img class="img-fluid" src="https://www.w3schools.com/w3images/team1.jpg" alt="">
+                        <h3 class="mt-3 mb-3">Jane Doe</h3>
+                        <p style="opacity: 0.60;">Architect</p>
+                        <p>
+                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                        </p>
+                        <button class="btn btn-defualt btn-block contact-btn">Contact</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 pl-pr-8">
+                    <div class="mb-4">
+                        <img class="img-fluid" src="https://www.w3schools.com/w3images/team3.jpg" alt="">
+                        <h3 class="mt-3 mb-3">Mike Ross</h3>
+                        <p style="opacity: 0.60;">Architect</p>
+                        <p>
+                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                        </p>
+                        <button class="btn btn-defualt btn-block contact-btn">Contact</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 pl-pr-8">
+                    <div class="mb-4">
+                        <img class="img-fluid" src="https://www.w3schools.com/w3images/team4.jpg" alt="">
+                        <h3 class="mt-3 mb-3">Dan Star</h3>
+                        <p style="opacity: 0.60;">Architect</p>
+                        <p>
+                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                        </p>
+                        <button class="btn btn-defualt btn-block contact-btn">Contact</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pt-5 pl-3 pr-3 pb-3" id="contact">
+            <div class="mt-4 mb-4">
+                <h4 class="pb-3" style="border-bottom: 1px solid #ccc;">Contact</h4>
+            </div>
+            <p class="">Lets get in touch and talk about your next project.</p>
+
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control input-custom" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control input-custom" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control input-custom" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control input-custom" placeholder="Comment">
+                </div>
+                <div class="form-group mt-4">
+                    <button class="btn btn-black">SEND MESSAGE</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="img-map p-3">
+            <img src="https://www.w3schools.com/w3images/map.jpg" alt="" style="width: 100%;">
+        </div>
+
+    </div>      
+    <!-- # END CONTENT -->
+
+    <!-- FOOTER -->
+    <footer>
+        <p class="mt-3 ref-link">Powered by 
+            <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" >w3.css</a>
+        </p>
+    </footer>
+    <!-- #END FOOTER -->
+
+</body>
+</html>
